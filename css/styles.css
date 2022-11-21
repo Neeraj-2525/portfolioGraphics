@@ -11574,3 +11574,11 @@ footer.footer .social-link:hover {
 .img_container{
   text-align: center;
 }
+
+#portfolio{
+  background-color: whitesmoke;
+}
+
+#about{
+  background-image: linear-gradient(to right, #fffbd5, #ffffe0 );
+}
