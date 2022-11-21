@@ -7721,7 +7721,8 @@ textarea.form-control-lg {
 
 .text-secondary {
   --bs-text-opacity: 1;
-  color: rgba(var(--bs-secondary-rgb), var(--bs-text-opacity)) !important;
+  color: rgba(var(--bs-blue), var(--bs-
+  text-opacity)) !important;
 }
 
 .text-success {
@@ -11573,12 +11574,20 @@ footer.footer .social-link:hover {
 
 .img_container{
   text-align: center;
+
 }
 
 #portfolio{
   background-color: whitesmoke;
 }
 
-#about{
-  background-image: linear-gradient(to right, #fffbd5, #ffffe0 );
+
+.skills{
+  text-align: left;
 }
+
+.skills ul li{
+  font-size: larger;
+  color: black;
+}
+
